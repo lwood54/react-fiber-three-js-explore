@@ -31,7 +31,7 @@ const Box: React.FC<BoxProps> = ({ position }) => {
 
 const FirstTJS = () => {
   return (
-    <div id="canvas-container">
+    <div id="canvas-container" style={{ minWidth: '25vw', minHeight: '25vh', border: '1px solid red' }}>
       <Canvas>
         <mesh>
           <ambientLight />
